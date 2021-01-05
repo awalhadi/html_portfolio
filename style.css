@@ -1,0 +1,23 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-weight: 400; */
+}
+
+.orange-color {
+  color: orange;
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin: 2%;
+  padding: 3%;
+}
+
+.half-width img {
+  width: 100%;
+}
