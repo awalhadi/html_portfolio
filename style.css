@@ -1,6 +1,10 @@
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
   /* font-weight: 400; */
+}
+section {
+  height: 500px;
 }
 
 .orange-color {
@@ -12,12 +16,54 @@ body {
 }
 
 .half-width {
-  width: 40%;
+  width: 38%;
   float: left;
   margin: 2%;
   padding: 3%;
 }
 
 .half-width img {
-  width: 100%;
+  width: 85%;
+}
+
+.banner-section {
+  background-image: url("images/top-banner.png");
+  /* height: 500px; */
+  background-repeat: no-repeat;
+}
+
+.dream-section {
+  background-image: url("images/dream-bg.png");
+  /* height: 500px; */
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  background-position: right;
+}
+
+.experience {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  height: 50%;
+  background-color: cornsilk;
+}
+
+.experience-section {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#exp-first {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, red, coral);
+  border-image-slice: 1;
+}
+
+#exp-second {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, green, blue);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 }
